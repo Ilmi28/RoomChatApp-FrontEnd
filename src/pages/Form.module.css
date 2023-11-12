@@ -1,0 +1,38 @@
+.appButton {
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid white;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+    display: block;
+    font-size: 15px;
+}
+
+.appButton:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.errorMessage {
+    color: black;
+    margin-bottom: 0px;
+    text-align: left;
+    width: 100%;
+}
+
+label {
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-align: left;
+    width: 100%;
+}
